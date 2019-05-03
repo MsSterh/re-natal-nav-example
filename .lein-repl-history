@@ -1,1 +1,2 @@
 (start-figwheel "ios")
+ (dispatch-sync [:db/initialize-db])
